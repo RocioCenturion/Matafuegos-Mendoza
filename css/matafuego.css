@@ -1,4 +1,4 @@
-*{        
+*{
   justify-content:center;
   align-items: center;
   align-content:auto;
@@ -20,7 +20,7 @@ header{
   display: flex;
   width: 100%;
   height: 100%;
- 
+
   }
   .encabezado img{
    display: flex;
@@ -37,9 +37,9 @@ header{
   .logo img{
   position:relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
   right:60%; /* Establecemos la barra en la izquierda o derecha */
-  top: -40px; /* Bajamos la barra cantidad de px de arriba a abajo */
-  width:150%;
-  height: 155%;
+  top: 0px; /* Bajamos la barra cantidad de px de arriba a abajo */
+  width:100%;
+  height: 100%;
   object-fit:contain;
   }
  
@@ -50,7 +50,7 @@ header{
 }
 .myMenu label {
   position:relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-  right:-150%; /* Establecemos la barra en la izquierda o derecha */
+  right:-200%; /* Establecemos la barra en la izquierda o derecha */
   top: 0px; /* Bajamos la barra cantidad de px de arriba a abajo */
   font-size:1cm;
   width: 40px;
