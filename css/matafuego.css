@@ -38,8 +38,8 @@ header{
   position:relative; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
   right:60%; /* Establecemos la barra en la izquierda o derecha */
   top: -40px; /* Bajamos la barra cantidad de px de arriba a abajo */
-  width:145%;
-  height: 150%;
+  width:150%;
+  height: 155%;
   object-fit:contain;
   }
  
